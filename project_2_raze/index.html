@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>raze</title>
+</head>
+<body>
+   
+        <section class="showcase">
+            <header>
+              <h2 class="logo">Raze</h2>
+              <div class="toggle"></div>
+            </header> 
+    
+    <div id="vid">
+        <video src="img/cars.mp4.mp4" muted loop autoplay></video>
+    </div>
+            
+            <div class="overlay"></div>
+            
+            <div class="text">
+                <h2>Never stop beat your time !</h2>
+                <h3>Race the world</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe corporis qui exercitationem delectus cum aut vel iure dicta vero esse.</p>
+                <a href="#">Raze</a>
+            </div>
+            
+            <ul class="social">
+                <li><a href="#"><img src="img/facebook.svg" alt=""></a></li>
+                <li><a href="#"><img src="img/instagram.svg" alt=""></a></li>
+                <li><a href="#"><img src="img/twitter.svg" alt=""></a></li>
+            </ul>
+            
+        </section>    
+        
+        <div class="menu">
+        <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">news</a></li>  
+            <li><a href="#">destination</a></li>
+            <li><a href="#">blog</a></li>
+            <li><a href="#">contact</a></li>
+        </ul>
+        </div>
+    
+        <script>
+            const menuToggle = document.querySelector('.toggle')
+            const showcase = document.querySelector('.showcase')
+    
+            menuToggle.addEventListener('click', () => {
+                menuToggle.classList.toggle('active')
+                showcase.classList.toggle('active')
+            } )
+             
+        </script>
+ 
+    
+    </body>
+</html>
